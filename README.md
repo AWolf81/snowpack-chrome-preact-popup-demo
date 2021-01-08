@@ -2,7 +2,7 @@
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
-**Note** Added snowpack-web-ext plugin and updated snowpack config because Chrome complaint about the __snowpack__ folder.
+**Note** Added snowpack-web-ext plugin and updated snowpack config because Chrome complaint about the `__snowpack__` folder.
 
 ## Available Scripts
 
