@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "snowpack-plugin-web-ext-chrome-popup-demo",
+  "version": "0.0.1",
+  "description": "Minimal demo for usage of snowpack-web-ext-plugin to create a browser extension with a Popup running a Preact App.",
+  "permissions": [
+    "active_tab"
+  ],
+  "minimum_chrome_version": "61",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html"
+  },
+  "background": {
+    "scripts": []
+  },
+  "content_scripts": [],
+  "web_accessible_resources": []
+}

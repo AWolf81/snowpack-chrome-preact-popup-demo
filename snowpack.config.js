@@ -8,6 +8,7 @@ module.exports = {
     '@snowpack/plugin-dotenv',
     '@snowpack/plugin-typescript',
     '@prefresh/snowpack',
+    'snowpack-plugin-web-ext'
   ],
   install: [
     /* ... */
@@ -19,6 +20,7 @@ module.exports = {
     /* ... */
   },
   buildOptions: {
+    metaDir: "snowpack_meta" // chrome issue with __snowpack__ because _ is reserved for system
     /* ... */
   },
   proxy: {

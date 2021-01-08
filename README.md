@@ -2,14 +2,15 @@
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
+**Note** Added snowpack-web-ext plugin and updated snowpack config because Chrome complaint about the __snowpack__ folder.
+
 ## Available Scripts
 
 ### npm start
 
-Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
+Runs the app in the development mode and opens a Chrome browser with the extension loaded.
 
-The page will reload if you make edits.
+Extension reloads by triggering a new action once re-build completed.
 You will also see any lint errors in the console.
 
 ### npm test
